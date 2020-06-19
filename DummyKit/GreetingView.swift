@@ -3,7 +3,7 @@ import UIKit
 public class GreetingView : UIView {
     
     @IBOutlet var contentView: UIView!
-    @IBOutlet var myLabel: UILabel!
+    @IBOutlet public var myLabel: UILabel!
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -16,6 +16,7 @@ public class GreetingView : UIView {
     }
 
     func commonInit() {
+
         let bundle = Bundle.init(for: type(of: self))
         print("***BUNDLE****")
         print(bundle)
