@@ -17,10 +17,7 @@ public class GreetingView : UIView {
     }
 
     func commonInit() {
-
         let bundle = Bundle.init(for: type(of: self))
-        print("***BUNDLE****")
-        print(bundle)
         bundle.loadNibNamed("GreetingView", owner: self, options: nil)
         addSubview(contentView)
         contentView.frame = self.bounds
