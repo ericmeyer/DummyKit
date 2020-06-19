@@ -1,5 +1,6 @@
 import UIKit
 
+@IBInspectable
 public class GreetingView : UIView {
     
     @IBOutlet var contentView: UIView!
