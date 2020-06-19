@@ -16,7 +16,8 @@ public class GreetingView : UIView {
     }
 
     func commonInit() {
-        Bundle.main.loadNibNamed("GreetingView", owner: self, options: nil)
+        let bundle = Bundle.init(for: type(of: self))
+        bundle.loadNibNamed("GreetingView", owner: self, options: nil)
         addSubview(contentView)
         contentView.frame = self.bounds
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]

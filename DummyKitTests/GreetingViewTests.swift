@@ -10,12 +10,12 @@ public class GreetingViewTests : XCTestCase {
         XCTAssertNotNil(controller)
     }
 
-//    public func testControllerHasAView() {
-//        let storyboard = UIStoryboard.init(name: "Test", bundle: Bundle.init(for: type(of: self)))
-//        let controller = storyboard.instantiateViewController(identifier: "GreetingViewController") as? GreetingViewController
-//        controller?.loadView()
-//
-//        XCTAssertNotNil(controller?.greetingView)
-//    }
+    public func testControllerHasAView() {
+        let storyboard = UIStoryboard.init(name: "Test", bundle: Bundle.init(for: type(of: self)))
+        let controller = storyboard.instantiateViewController(identifier: "GreetingViewController") as? GreetingViewController
+        controller?.loadView()
+
+        XCTAssertNotNil(controller?.greetingView)
+    }
 
 }
