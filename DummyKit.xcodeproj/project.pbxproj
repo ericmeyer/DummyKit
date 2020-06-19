@@ -12,6 +12,11 @@
 		0719C46E249D07F50029A0CA /* DummyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0719C460249D07F50029A0CA /* DummyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0719C478249D08DA0029A0CA /* DummyAdderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0719C477249D08DA0029A0CA /* DummyAdderTests.swift */; };
 		0719C47A249D09490029A0CA /* DummyAdder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0719C479249D09490029A0CA /* DummyAdder.swift */; };
+		0719C4B2249D12760029A0CA /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0719C4B1249D12760029A0CA /* GreetingView.swift */; };
+		0719C4B4249D127F0029A0CA /* GreetingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0719C4B3249D127F0029A0CA /* GreetingView.xib */; };
+		0719C4B6249D13EC0029A0CA /* GreetingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0719C4B5249D13EC0029A0CA /* GreetingViewTests.swift */; };
+		0719C4B8249D14060029A0CA /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0719C4B7249D14060029A0CA /* Test.storyboard */; };
+		0719C4BA249D16260029A0CA /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0719C4B9249D16260029A0CA /* GreetingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,11 @@
 		0719C46D249D07F50029A0CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0719C477249D08DA0029A0CA /* DummyAdderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyAdderTests.swift; sourceTree = "<group>"; };
 		0719C479249D09490029A0CA /* DummyAdder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyAdder.swift; sourceTree = "<group>"; };
+		0719C4B1249D12760029A0CA /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		0719C4B3249D127F0029A0CA /* GreetingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreetingView.xib; sourceTree = "<group>"; };
+		0719C4B5249D13EC0029A0CA /* GreetingViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewTests.swift; sourceTree = "<group>"; };
+		0719C4B7249D14060029A0CA /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		0719C4B9249D16260029A0CA /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,8 @@
 				0719C460249D07F50029A0CA /* DummyKit.h */,
 				0719C461249D07F50029A0CA /* Info.plist */,
 				0719C479249D09490029A0CA /* DummyAdder.swift */,
+				0719C4B1249D12760029A0CA /* GreetingView.swift */,
+				0719C4B3249D127F0029A0CA /* GreetingView.xib */,
 			);
 			path = DummyKit;
 			sourceTree = "<group>";
@@ -88,6 +100,9 @@
 				0719C46B249D07F50029A0CA /* DummyKitTests.swift */,
 				0719C46D249D07F50029A0CA /* Info.plist */,
 				0719C477249D08DA0029A0CA /* DummyAdderTests.swift */,
+				0719C4B5249D13EC0029A0CA /* GreetingViewTests.swift */,
+				0719C4B7249D14060029A0CA /* Test.storyboard */,
+				0719C4B9249D16260029A0CA /* GreetingViewController.swift */,
 			);
 			path = DummyKitTests;
 			sourceTree = "<group>";
@@ -185,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0719C4B4249D127F0029A0CA /* GreetingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0719C4B8249D14060029A0CA /* Test.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0719C47A249D09490029A0CA /* DummyAdder.swift in Sources */,
+				0719C4B2249D12760029A0CA /* GreetingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +229,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0719C46C249D07F50029A0CA /* DummyKitTests.swift in Sources */,
+				0719C4B6249D13EC0029A0CA /* GreetingViewTests.swift in Sources */,
 				0719C478249D08DA0029A0CA /* DummyAdderTests.swift in Sources */,
+				0719C4BA249D16260029A0CA /* GreetingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
